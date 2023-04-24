@@ -16,11 +16,18 @@ public class MyDataTypes {
         System.out.println(number4);
         System.out.println(number5);
 
-        boolean dry=true;
+        boolean dry=false;
 
-        if(dry==true) {
+        if(dry) {
+
+            System.out.println("Time to hang up those curtains!");
+        } else {
 
             System.out.println("We will have to wait a spell!!");
+
+            char best = 'A';
+
+                System.out.println(best);
 
 
             }
