@@ -58,7 +58,7 @@ public class FurthereExpansionOnTheDailySpecials {
         } else if (amount >= 5 && amount < 10) {
             double regularPrice = amount * price;
             double total = regularPrice * 0.9; // Apply 10% discount
-            System.out.printf("Group discount applied! Your regular price is $%.2f.%n", regularPrice);
+            System.out.printf("Looks like you qualify for a group discount! Your regular price is $%.2f.%n", regularPrice);
             System.out.printf("You have ordered %d %ss but will be only charged $%.2f dollars!%n",
                     amount, coffee, total);
         } else if (amount >= 10) {
